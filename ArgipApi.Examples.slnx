@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/demo/">
+    <Project Path="demo/ArgipApi.Demo/ArgipApi.Demo.csproj" />
+  </Folder>
+  <Folder Name="/quickstart/">
+    <Project Path="quickstart/ArgipApi.Quickstart/ArgipApi.Quickstart.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ArgipApi.Client/ArgipApi.Client.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ArgipApi.Client.Tests/ArgipApi.Client.Tests.csproj" />
+  </Folder>
+</Solution>

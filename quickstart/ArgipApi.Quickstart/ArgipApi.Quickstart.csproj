@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ArgipApi.Client\ArgipApi.Client.csproj" />
+    <!-- The same .env loader as in the demo; shared by linking the file instead of copying it. -->
+    <Compile Include="..\..\demo\ArgipApi.Demo\DotEnv.cs" />
+  </ItemGroup>
+
+</Project>
